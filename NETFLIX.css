@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    background-image: url(Assets/image/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+
+    
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+nav {
+
+    max-width: 60vw;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+nav {
+    max-width: 60vw;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 120px;
+    margin-top: 2opx;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+
+#language {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 6px 36px 6px 36px;
+    line-height: 20px;
+    height: 32px;
+    width: 120.4px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+
+}
+
+#Signin {
+    background-color: #E50914;
+    line-height: 14px;
+    height: 32px;
+    width: 75.9875px;
+    padding: 3px 8px;
+
+}
+
+.hero {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+#fristbgtext {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
+
+#secondbgtext {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+
+}
+
+#thridbgtext {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.line {
+    background: #ff0a5b;
+    height: 5px;
+
+
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.emgt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+input {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.main input {
+
+    padding: 24px 16px 8px 16px;
+    /*7px 101px 8px 14px*;*/
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+
+
+}
+
+#get {
+    background-color: #E50914;
+    color: white;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 3px 24px;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 60px;
+    right: 10px;
+}
+
+.trendingnow {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+
+}
+
+.rank {
+    margin: 10px;
+    height: 252px;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.rank img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.rank img:hover {
+    transform: scale(1.1);
+    zoom: normal;
+
+}
+
+@media screen and (max-width:1300px) {
+    .trendingnow {
+        flex-wrap: wrap;
+    }
+
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+.card {
+    background: linear-gradient(to bottom, #13111A, #25172C);
+    padding: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 200px;
+}
+
+
+
+.icon {
+    margin-top: 20px;
+    margin-left: 220px;
+
+}
+
+#kids {
+    margin-bottom: 20px;
+    margin-left: 220px;
+
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+@media screen and (max-width:1300px) {
+    .footer {
+        font-size: 15px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer a {
+        font-size: 14px;
+        color: white;
+    }
+    
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .faqbox {
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .cardcontainer {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-wrap: wrap;
+    }
+
+    #fristbgtext {
+        font-size: 32px;
+        flex-wrap: wrap;
+    }
+
+    #secondbgtext {
+        font-size: 18px;
+
+    }
+
+    #thridbgtext {
+        font-size: 18px;
+    }
+       .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }   
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .emgt{
+          
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+    }
+    
+    
+    
+
+}
+
+@media screen and (max-width: 959.98px) {
+        #logo       {
+        width: 5.5625rem;
+        height: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        max-width: 100vw;
+        padding: 10px;
+    }
+
+    nav img {
+        width: 120px;
+    }
+
+    nav div {
+        gap: 10px;
+    }
+
+    nav button {
+        min-width: 70px; 
+        padding: 6px 10px;
+    }
+}
+ 
